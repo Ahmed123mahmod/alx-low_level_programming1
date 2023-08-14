@@ -2,17 +2,18 @@
 #define DOG_H
 
 /**
- * struct dog - Define a new type
+ * struct dog - a dog's basic info
  * @name: First member
  * @age: Second member
  * @owner: Third member
- * Returm: Always 0 sucsses
-*/
+ *
+ * Description: Longer description
+ */
 struct dog
 {
-	char *name[];
+	char *name;
 	float age;
-	char *owner[];
+	char *owner;
 };
 
 /**
